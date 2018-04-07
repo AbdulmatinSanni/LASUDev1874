@@ -5,5 +5,7 @@ $attendees = [
     'Mark Zuckerberg',
     'Bill Gate',
     'Larry Elison',
-    'Victor Aremu'
+    'Victor Aremu',
+    'Steve Jobs',
+    'Elon Musk'
 ];
