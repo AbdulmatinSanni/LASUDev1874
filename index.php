@@ -1,3 +1,6 @@
+<?php
+include_once "includes/attendees.php";
+?>
 <!doctype html>
 
 <html lang="en">
@@ -15,6 +18,10 @@
 </head>
 
 <body>
-
+    <h1 class="text-center">LASUDev1874 Collaborative Coding using VCS - Git</h1>
+    <hr>
+    <?php foreach ($attendees as $key => $attendee): ?>
+        <h2 class="text-center"><?php echo $attendee; ?></h2>
+    <?php endforeach; ?>
 </body>
 </html>
